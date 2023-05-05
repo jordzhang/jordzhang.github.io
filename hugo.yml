@@ -24,10 +24,9 @@ languages:
   zh:
     languageName: "Chinese"
     weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
+    # taxonomies:
+      # category: categories
+      # tag: tags
     menu:
       main:
         - name: Blog
@@ -40,7 +39,7 @@ languages:
           url: tags/
           weight: 10
 params:
-  ShowFullTextinRSS: true
+  # ShowFullTextinRSS: true
   hideSummary: true
   defaultTheme: auto
   disableThemeToggle: true
