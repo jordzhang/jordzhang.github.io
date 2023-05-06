@@ -1,58 +1,61 @@
 baseURL: http://zzllzz.com/
-defaultContentLanguage: zh
+defaultContentLanguage: en
 title: zzllzz.com
 theme: PaperMod
+googleAnalytics: G-VX98QVERRC
 languages:
-  # en:
-  #   languageName: "English"
-  #   weight: 2
-  #   taxonomies:
-  #     category: categories
-  #     tag: tags
-  #     series: series
-  #   menu:
-  #     main:
-  #       - name: Blog
-  #         url: posts
-  #         weight: 1
-  #       - name: Archive
-  #         url: archives
-  #         weight: 5
-  #       - name: Tags
-  #         url: tags/
-  #         weight: 10
-  zh:
-    languageName: "Chinese"
+  en:
+    languageName: "English"
     weight: 1
     # taxonomies:
-      # category: categories
-      # tag: tags
+    #   category: categories
+    #   tag: tags
+    #   series: series
     menu:
       main:
-        - name: Blog
+        - name: Post
           url: posts
           weight: 1
         - name: Archive
           url: archives
           weight: 5
-        - name: Tags
+        - name: Tag
           url: tags/
           weight: 10
+  # zh:
+  #   languageName: "Chinese"
+  #   weight: 1
+  #   # taxonomies:
+  #     # category: categories
+  #     # tag: tags
+  #   menu:
+  #     main:
+  #       - name: Post
+  #         url: posts
+  #         weight: 1
+  #       - name: Archive
+  #         url: archives
+  #         weight: 5
+  #       - name: Tag
+  #         url: tags/
+  #         weight: 10
 params:
   # ShowFullTextinRSS: true
+  label:
+    text: ZzllzZ
   hideSummary: true
   defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
-    Title: zhiliang
-    Content: 专业打杂开发人员
+    Title: Zhang zhiliang
+    Content:  indie maker / software developer / chinese
   profileMode:
     enabled: false
-    buttons:
-      - name: Post
-        url: /posts
-      - name: Archive
-        url: /archives
+    # buttons:
+    #   - name: Post
+    #     url: /posts
+    #   - name: Archive
+    #     url: /archives
   socialIcons:
     - name: github
       url: https://github.com/jordzhang
@@ -66,3 +69,5 @@ params:
   ShowShareButtons: false
   ShareButtons: ["twitter", "linkedin", "reddit", "facebook", "whatsapp", "telegram"]
   ShowRssButtonInSectionTermList: true
+  # assets:
+  #   favicon: images/favicon.png
