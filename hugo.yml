@@ -58,7 +58,7 @@ params:
     #     url: /archives
   socialIcons:
     - name: github
-      url: https://github.com/jordzhang
+      url: https://github.com/zhiliang8
     - name: twitter
       url: https://twitter.com/zhiliang
   ShowReadingTime: true
